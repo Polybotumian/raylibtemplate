@@ -292,5 +292,4 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
 	$(CXX) -c $< -o $@ $(CXXFLAGS) $(INCLUDE_PATHS) -D$(PLATFORM)
 
 clean:
-	rm -rf $(OBJ_DIR) $(PROJECT_NAME)$(EXT)
 	@echo Cleaning done

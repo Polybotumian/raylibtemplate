@@ -5,10 +5,15 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/*.o": true
-    // "**/*.exe": true  // Comment this line out or remove it temporarily
+    "**/*.o": true,
+    "**/obj": true,         // To remove "obj" folder
+    "**/*.exe": true        // Comment this line out to create .exe
   },
   "files.associations": {
-    "stdio.h": "c"
+    "*.cpp": "cpp",
+    "*.js": "javascript",
+    "stdio.h": "c",
+    "*.m": "cpp",
+    "string": "cpp"
   }
 }
